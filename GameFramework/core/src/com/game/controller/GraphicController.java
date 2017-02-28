@@ -132,8 +132,8 @@ public class GraphicController implements IGraphicController{
         TextureRegion[][] tmpEffects = TextureRegion.split(this.effectsTexture, this.effectsTexture.getWidth()/EFFECTSFRAME_COLS, this.effectsTexture.getHeight());
         this.effectsFrames = new TextureRegion[EFFECTSFRAME_COLS];
    
-        	for (int i = 0; i < EFFECTSFRAME_COLS; ++i){
-        		this.effectsFrames[index++] = tmpEffects[0][i];
+        for (int i = 0; i < EFFECTSFRAME_COLS; ++i){
+        	this.effectsFrames[index++] = tmpEffects[0][i];
     
         }
         this.effectsAnimation = new Animation(0.025f, this.effectsFrames);
