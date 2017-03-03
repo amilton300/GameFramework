@@ -52,7 +52,7 @@ public class GameButton extends UiDecorator implements IMenuComposite{
 		this.name = name;
 		this.stage = MainMenu.getInstance().getStage();
 		
-        /*Every GameButton will have AIGameButtons. Except when there isn't Artificial Intelligence
+        /*Every GameButton will have AIGameButtons. Except when there aren't Artificial Intelligence
          * plugins in the file directory.*/
         String[] aI;
 		try{
