@@ -25,7 +25,6 @@ import com.game.utils.ButtonSkins;
 
 public class AIGameButton{
 	
-	/*I can smell a lot of code repetition...*/
 	public void moveIn(){
 		MoveToAction moveAction = new MoveToAction();
 		moveAction.setPosition(Gdx.graphics.getWidth()/2 - Gdx.graphics.getWidth()/8 , Gdx.graphics.getHeight() - this.idParent*50 - 100);
